@@ -4,17 +4,18 @@ body {
     padding: 0;
     background: #f4f6f8;
     color: #333;
+    line-height: 1.6;
 }
 
 .hero {
     background: linear-gradient(to right, #0056b3, #007bff);
     color: white;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 6rem 2rem 5rem;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
 }
 
@@ -28,23 +29,26 @@ body {
     color: white;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .btn:hover {
     background-color: #218838;
+    transform: scale(1.05);
 }
 
 .services {
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     text-align: center;
 }
 
 .services h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    margin-bottom: 2.5rem;
 }
 
 .service-cards {
@@ -57,34 +61,64 @@ body {
 .card {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 280px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .about {
     background: #ffffff;
-    padding: 4rem 2rem;
+    padding: 5rem 2rem;
     text-align: center;
 }
 
 .about h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 1rem;
 }
 
 .about p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .contact {
     background: linear-gradient(to right, #28a745, #218838);
-    text-align
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.contact .btn {
+    background-color: white;
+    color: #218838;
+}
+
+.contact .btn:hover {
+    background-color: #f4f4f4;
+    color: #28a745;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
