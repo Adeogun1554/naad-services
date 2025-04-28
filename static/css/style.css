@@ -1,112 +1,26 @@
-.hero-buttons {
-    margin-top: 2rem;
-}
-
-.hero-buttons .btn-primary,
-.hero-buttons .btn-secondary {
-    margin: 0 0.5rem;
-}
-
-.btn-primary {
-    background-color: #ffc107;
-    color: #333;
-    padding: 0.75rem 1.5rem;
-    border-radius: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #e0a800;
-    transform: scale(1.05);
-}
-
-.btn-secondary {
-    background-color: white;
-    color: #0056b3;
-    padding: 0.75rem 1.5rem;
-    border-radius: 50px;
-    border: 2px solid #0056b3;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.btn-secondary:hover {
-    background-color: #f0f8ff;
-    transform: scale(1.05);
-}
-
-.service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.service-item {
-    background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
+.bright-hero {
+    background: linear-gradient(to right, #ffffff, #f0f8ff);
+    padding: 6rem 2rem 4rem 2rem;
     text-align: center;
+    color: #003366;
 }
 
-.service-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-}
-
-.icon {
-    font-size: 2.5rem;
+.bright-hero h1 {
+    font-size: 2.8rem;
     margin-bottom: 1rem;
 }
 
-.curve {
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to right, #0056b3, #007bff);
-    border-top-left-radius: 50% 20%;
-    border-top-right-radius: 50% 20%;
-}
-
-.cta {
-    background: linear-gradient(to right, #0056b3, #007bff);
-    color: white;
-    text-align: center;
-    padding: 4rem 2rem;
-}
-
-.cta .btn-primary {
-    background-color: white;
-    color: #0056b3;
+.bright-hero p {
     font-size: 1.2rem;
-    padding: 1rem 2rem;
-}
-
-.cta .btn-primary:hover {
-    background-color: #f0f8ff;
-    color: #003366;
-    transform: scale(1.08);
-}
-
-footer {
-    background: #f8f9fa;
     color: #333;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
 }
 
-footer a {
-    color: #0056b3;
-    text-decoration: none;
+.services h2, .about h2, .cta h2 {
+    font-size: 2rem;
+    color: #003366;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.services p, .about p {
+    font-size: 1rem;
+    color: #555;
 }
