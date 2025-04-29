@@ -129,3 +129,51 @@ footer {
   text-decoration: none;
   margin: 0 0.5em;
 }
+@media (max-width: 768px) {
+  header.hero {
+    padding: 2em 1em;
+  }
+
+  .hero h1 {
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .hero-buttons a {
+    display: block;
+    width: 90%;
+    margin: 0.5em auto;
+    text-align: center;
+  }
+
+  .services .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    padding: 0 1em;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+section:nth-child(2) { animation-delay: 0.2s; }
+section:nth-child(3) { animation-delay: 0.4s; }
+section:nth-child(4) { animation-delay: 0.6s; }
+section:nth-child(5) { animation-delay: 0.8s; }
