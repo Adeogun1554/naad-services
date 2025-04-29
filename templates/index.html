@@ -1,59 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAAD Services</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAAD - Noble Association for Advancement & Development</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header class="hero bright-hero">
-    <h1>Bringing Noble Service to Your Digital World</h1>
-    <p>Helping businesses modernize, automate, and grow with excellence.</p>
-    <div class="hero-buttons">
-        <a href="mailto:naadnemt@gmail.com" class="btn-primary">Contact Us</a>
-        <a href="mailto:naadnemt@gmail.com" class="btn-secondary">Get a Quote</a>
+  <!-- Header -->
+  <header>
+    <div class="logo">NAAD</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Who We Are</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Driven by Purpose. Evolving with Vision.</h1>
+      <p>From community service roots to tech-forward solutions, we’re building bridges that move people — and futures — forward.</p>
+      <a href="#contact" class="cta-button">Get Involved</a>
     </div>
-</header>
+  </section>
 
-<section class="services">
-    <h2>Our Expertise</h2>
-    <div class="service-grid">
-        <div class="service-item">
-            <div class="icon">🎨</div>
-            <h3>Birthday Flyers</h3>
-            <p>Custom digital flyer designs for your events.</p>
-        </div>
-        <div class="service-item">
-            <div class="icon">🖥️</div>
-            <h3>Website Refresh</h3>
-            <p>Modernize your existing website to new standards.</p>
-        </div>
-        <div class="service-item">
-            <div class="icon">⚙️</div>
-            <h3>Business Automations</h3>
-            <p>Streamline your operations with smart automations.</p>
-        </div>
+  <!-- Who We Are -->
+  <section id="about">
+    <h2>Who We Are</h2>
+    <p>
+      NAAD began as a community-focused provider of non-emergency transportation services, built on the values of service, reliability, and compassion. Today, we're growing into something more — expanding into technology, workforce development, and solutions that meet real-world needs.
+      <br><br>
+      We are a noble organization guided by the belief that meaningful change starts with action. Whether it’s getting people to their appointments or helping them access digital tools for a better future, our mission remains the same: to bridge gaps, open doors, and uplift lives.
+    </p>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>
+      Our mission is to empower individuals and communities by delivering reliable services and innovative solutions — from accessible transportation to emerging technologies — that improve lives and create lasting impact.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>What We Do</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Non-Emergency Transportation</h3>
+        <p>Safe, dependable rides for individuals who need access to medical appointments and essential services.</p>
+      </div>
+      <div class="service-item">
+        <h3>Tech Literacy & Access</h3>
+        <p>Workshops and training programs to empower individuals with digital skills for today's workforce.</p>
+      </div>
+      <div class="service-item">
+        <h3>Youth & Workforce Development</h3>
+        <p>Equipping the next generation with tools, mentorship, and pathways to long-term success.</p>
+      </div>
+      <div class="service-item">
+        <h3>Community Partnerships</h3>
+        <p>Collaborating with local leaders and organizations to expand reach and deepen impact.</p>
+      </div>
     </div>
-</section>
+  </section>
 
-<div class="curve"></div>
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-<section class="about">
-    <h2>Why Choose NAAD Services?</h2>
-    <p>Dependable, innovative, and results-driven. We blend noble service with professional excellence to move your digital journey forward.</p>
-</section>
-
-<section class="cta">
-    <h2>Let's Build Something Great</h2>
-    <a href="mailto:naadnemt@gmail.com" class="btn-primary">Start Your Project</a>
-</section>
-
-<footer>
-    <p>&copy; 2025 NAAD Services | <a href="/login">Admin Login</a></p>
-</footer>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 NAAD. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#hero">Home</a> | 
+      <a href="#about">About</a> | 
+      <a href="#services">Services</a> | 
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
 
 </body>
 </html>
